@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <heaad>
+    <meta charset="utf-8" />
+    <title>Học CSS cùng Code Dạo</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A demonstration of what can be accomplished visually through CSS-based design."
+    />
+    <meta name="robots" content="all" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  </heaad>
+
+  <body>
+    <div class="container">
+      <div id="top">
+        <h1>Học CSS cùng Code Dạo</h1>
+        <p>Biến trang web tởm lợm thành web cute dễ xương cùng CSS.</p>
+      </div>
+
+      <div class="wrapper">
+        <div id="main">
+          <h1>Giới thiệu trang web StackOverflow</h1>
+          <p>
+            Stack Overflow: Câu chuyện "hài hước lãng mạn không kém phần kịch
+            liệt" tập trung vào nam sinh đại học Kazushi Sudou và các cô bạn thơ
+            ấu của mình là chị em Shirakwa:<br />
+            <a href="#">Tập 1</a>, <a href="#">Tập 2</a>, <a href="#">Tập 3</a>,
+            <a href="#">Tập 4</a>.
+            <br/*>
+            <img src="https://i.imgur.com/uT5dwmD.jpg" />
+            
+          </p>
+
+          <h2>Trang web tương tự</h2>
+          <p>
+            Tìm các web tương tự cùng hãng với từ khoá:
+            <span class="keyword"
+              >Vanilla, NTR, Cotton Doll, Dứa Hồng, TRex, Mèo Đen</span
+            >.<br />
+            Xem thêm tại: <a href="#">GithubZ</a>.
+          </p>
+        </div>
+
+        <div id="sidebar">
+          <h3>Giới thiệu GithubZ</h3>
+          <p>
+            Ghé thăm <a href="#">GithubZ</a> để xem các repo mới và hot cập nhật
+            mỗi ngày. <br />
+            Code JP, US, UK Vietsub - Xem Code hay 18+ không che.
+
+            <img src="https://i.imgur.com/iZFbc6V.jpg" />
+          </p>
+        </div>
+      </div>
+
+      <div id="bottom">
+        Bản quyền thuộc về GithubZ - 2021.
+      </div>
+    </div>
+  </body>
+</html>
+
+<style>
+ #top {
+  color: orange;
+  background: gray;
+  font-family: 'K2D', sans-serif;
+  font-weight: 600;
+  text-align: center;
+  padding: 5px 5px 5px 5px;
+
+}
+
+#top h1 {
+  text-decoration-line: underline;
+
+}
+
+#main {
+  margin-right: 650px;
+  line-height:2;
+}
+
+#main h1, #main h2 {
+  text-align: center;
+  color: white;
+  font-size: 2rem;
+  margin: 0 0 0 0;
+  text-decoration-line: underline;
+    
+} 
+
+html {
+ 
+background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  font-size: 15px;
+  font-family: Lucida Handwriting;
+}
+
+#main {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  padding: 0 20px 0 20px; 
+  border: 1px dashed gray;
+}
+
+#main img {
+  width: 100%;
+  height: auto;
+  border-radius: 50px 50px 50px 50px;
+}
+#bottom {
+  border: 1px solid gray;
+  text-align: center;
+  background: gray;
+  font-family: 'K2D', sans-serif;
+  padding: 10px 10px 10px 10px;
+  font-weight: bold;
+  color: orange;
+}
+
+.wrapper {
+  position: relative;
+}
+
+#sidebar {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 550px;
+  border: 3px dashed gray;
+  line-height: 2;
+  margin: 30px 30px 30px 30px;
+  text-align:center;
+  
+}
+
+h3 {
+  text-decoration-line: underline;
+}
+a {
+  color: orange;
+  font-weight: bold;
+}
+
+.keyword {
+  font-weight: bold;
+  text-decoration-line: underline;
+}   
+</style>
